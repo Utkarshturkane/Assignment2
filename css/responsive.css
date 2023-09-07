@@ -1,0 +1,92 @@
+
+
+/* Screen Size 576px and less */
+@media (max-width: 576px) {
+
+    .carousel-container{
+        display: none;
+    }
+
+    .heading-dropdown {
+        flex-direction: column;
+    }
+
+    .slidecontainer {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 114px;
+    }
+
+    .container-card{
+        grid-template-columns: auto;    
+    }
+
+    .slider::-webkit-slider-thumb {
+        width: 30px;
+        height: 15px;
+    }
+    
+    .slider::-moz-range-thumb {
+        width: 30px;
+        height: 15px;
+    }
+
+    .footer-container div:nth-child(1) {
+        grid-column: 1;
+    }
+
+    .footer-container {
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+ 
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+
+    .container-card{
+        grid-template-columns: auto ;    
+    }
+
+    .carousel-container{
+        display: none;
+    }
+
+    .footer-container div:nth-child(1) {
+        grid-column: 1;
+    }
+
+    .footer-container {
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+
+    .heading-dropdown {
+        flex-direction: column;
+    }
+
+    .slidecontainer {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 114px;
+    }
+
+}
+
+@media (max-width: 992px) and (min-width: 769px) {
+
+    .container-card{
+        grid-template-columns: auto auto;    
+    }
+
+
+}
+
+@media (max-width: 1200px) and (min-width: 993px) {
+
+    .container-card{
+        grid-template-columns: auto auto auto;    
+    }
+    
+}
